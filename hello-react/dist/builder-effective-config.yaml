@@ -1,0 +1,6 @@
+directories:
+  output: dist
+  buildResources: public
+extends: null
+target: zip
+electronVersion: 3.0.0

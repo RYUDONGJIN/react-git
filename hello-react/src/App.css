@@ -1,0 +1,366 @@
+.App {
+  text-align: center;
+}
+/*
+.App-header {
+  background-color: #171B23;
+  height: 55px;
+  padding: 0px;
+  color: white;
+}
+*/
+.App-center {
+  background-color : #171B23;
+  height : 1200px;
+}
+
+.AppSideBar {
+  background-color : #171B23;
+  width: 340px;
+  height: 1200px;
+  float : left;
+  margin-left : -230px;
+}
+
+.AppManageContent {
+  background-color : #FFFFFF;
+  width : 1200px;
+  height: 100px;
+  float : left;
+  margin : 20px;
+}
+
+.manageMainContent {
+  border : 1px solid black;
+  width : 400px;
+  margin-left : 100px;
+}
+
+.App-intro {
+  padding: 0px;
+  margin : 0px;
+}
+
+.MainContent {
+  padding: 0px;
+  margin : 0px;
+}
+
+.NavBar {
+  background-color: #171B23;
+  height: 55px;
+  color: white;
+}
+
+.mainLogo {
+  float : left;
+  margin : 18px 110px 20px 20px;
+  width : 100px;
+}
+
+.NavBarLink a {
+  color : white;
+  text-decoration : none;
+  display : block;
+  float : left;
+  width : 60px;
+  font-size : 13px;
+  margin: 18px 15px;
+}
+
+.NavBarSub {
+  color : gray;
+  float : right;
+  margin : 10px 15px;
+  display : block;
+}
+
+.coinTable {
+  margin : 1px auto;
+  width: 55%;
+  border: 2px solid #181B24;
+  border-collapse: collapse;
+}
+
+.coinTableMini {
+  width: 100%;
+  border: 1px solid #4F545F;
+  border-collapse: collapse;
+  margin : 0 auto;
+}
+
+.myCoinTableMini {
+  width: 100%;
+  border: 1px solid #ECECEC;
+  border-collapse: collapse;
+}
+
+.myCoinTableMini th {
+  border-top: 1px solid #ECECEC;
+  background-color : #FFFFFF;
+  color : #212529;
+  text-align : center;
+  height : 50px; 
+  width : 40px;
+  font-size: 12px;
+}
+
+.myCoinTableMini td {
+  border-bottom: 1px solid #ECECEC;
+  background-color : #FFFFFF;
+  color : #212529;
+  text-align : right;
+  height : 50px; 
+  width: 70px;
+  padding-right : 11px;
+}
+
+.RecentTradeList {
+  width: 40%;
+  border: 1px solid #242936;
+  border-collapse: collapse;
+  margin : 2px;
+  
+}
+
+.RecentTradeList th {
+  color : white;
+  text-align : left;
+  height : 25px; 
+  width : 40px;
+  font-size: 14px;
+  margin : 4px;
+}
+
+.RecentTradeList td {
+  background-color : #171B23;
+  color : white;
+  text-align : right;
+  height : 25px; 
+  width: 80px;
+  margin : 4px;
+}
+
+.OrderCoinList {
+  width: 83%;
+  border: 2px solid #242936;
+  border-collapse: collapse;
+  margin : 1px;
+}
+
+.OrderCoinList th {
+  color : white;
+  text-align : left;
+  height : 34px; 
+  width : 40px;
+  font-size: 14px;
+  background-color : #171B23;
+}
+
+.OrderCoinList td {
+  background-color : #171B23;
+  color : white;
+  text-align : right;
+  height : 34px; 
+  width: 170px;
+}
+
+.coinTableMini th {
+  border-top: 1px solid #4F545F;
+  background-color : #1D212B;
+  color : #E2E3E4;
+  text-align : center;
+  height : 50px; 
+  width : 40px;
+  font-size: 12px;
+}
+
+.coinTableMini td {
+  border-bottom: 1px solid #4F545F;
+  background-color : #1D212B;
+  color : #E2E3E4;
+  text-align : right;
+  height : 50px; 
+  width: 70px;
+  padding-right : 11px;
+}
+
+.coinTable th {
+  border-top: 1px solid #171B23;
+  background-color : #1D212B;
+  color : #E2E3E4;
+  text-align : center;
+  height : 60px; 
+  width : 45px;
+}
+
+.coinTable td {
+  border-bottom: 1px solid #181B24;
+  background-color : #1D212B;
+  color : #A0A5AF;
+  text-align : right;
+  height : 60px; 
+  width: 120px;
+  padding: 15px;
+}
+
+.marketFilter {
+  background-color : #171B23;
+  border : 1px solid black;
+  width : 1010px;
+  margin : 0px auto;
+  margin-bottom: 50px;
+  margin-top : -4px;
+}
+
+.marketFilterMini {
+  background-color : #171B23;
+  border : 1px solid black;
+  float : left;
+}
+
+.filterBtn {
+  background-color : #171B23;
+  border : 1px solid black;
+  float : left;
+}
+
+.filterInput {
+  background-color : #171B23;
+  border : 1px solid black;
+  float : right;
+}
+
+.exchange {
+  background-color : #171B23;
+  height : 1320px;
+}
+
+.coinSideInfo {
+  border : 1px solid #4F545F;
+  margin : 7px;
+  width : 315px;
+  height : 260px;
+  padding : 15px;
+}
+
+.OrderSideInfo {
+  border : 1px solid #4F545F;
+  width : 505ps;
+  height : 740px;
+  padding : 15px;
+  background-color : #171B23;
+}
+
+.smallInfo {
+  font-size: 12px;
+  color : #A0A5AF;
+  padding: 6px;
+}
+
+.leftInfo {
+  float : left;
+  text-align: left;
+  color : #E2E3E4;
+  font-weight: bold;
+  font-size: 17px;
+  margin-bottom : 0px;
+}
+
+.rightInfo {
+  float : right;
+  text-align: right;
+  color : #E2E3E4;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.leftMainEx {
+  float : left;
+  text-align: left;
+  width: 1000px;
+  border-top:1px solid #4F545F;
+}
+
+.rightMainEx {
+  float : right;
+  text-align: right;
+  width: 490px;
+  height : 450px;
+  background-color: #171B23;
+}
+
+.filterBtnMini {
+  background-color : #171B23;
+  border : 1px solid black;
+  float : left;
+  margin : -2px;
+}
+
+.myCoinFilterInput {
+  background-color :  #B5B5B6;
+  border : 1px solid #B5B5B6;
+  float : right;
+  margin: 2px;
+}
+
+.myCoinFilterButton {
+  background-color :  #FFFFFF;
+  float : left;
+  width: 20%;
+  margin: 2px;
+}
+
+.filterInputMini {
+  background-color : #171B23;
+  border : 1px solid #E1E1E2;
+  float : left;
+  margin-left: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.flavorIcon {
+  background-color : #171B23;
+  border : 1px solid black;
+  margin-top: 60px;
+}
+
+.mainFooter {
+  height : 200px;
+  color : #6D717A;
+  background-color: #11131A;
+  font-size: 13px;
+}
+
+.mainFooter span {
+  margin : 40px;
+  float : left;
+}
+
+.mainFooter ul {
+  float: right;
+  margin : 30px;
+}
+
+.mainFooter li {
+  text-decoration: underline;
+  display: inline-block;
+  margin : 10px;
+}
+
+.mainFooter p {
+  float : left; 
+  text-align: left;
+  width: 1020px;
+  margin : 0 auto;
+} 
+
+.footerInfo {
+  margin-left: 40px;
+} 
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
